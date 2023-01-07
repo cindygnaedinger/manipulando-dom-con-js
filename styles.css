@@ -130,3 +130,22 @@ form {
   width: 100%;
   padding: 15px;
 }
+/* For small devices */
+@media screen and (max-width: 576px){
+  .title{
+    margin-bottom: 50px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+  .mainCard{
+    width: 60vw;
+  }
+  .inputForm{
+    width: 200px;
+  }
+}
