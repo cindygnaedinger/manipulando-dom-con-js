@@ -133,7 +133,8 @@ form {
 /* For small devices */
 @media screen and (max-width: 576px){
   .title{
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   form{
     display: flex;
@@ -143,9 +144,13 @@ form {
     align-items: flex-start;
   }
   .mainCard{
-    width: 60vw;
+    width: 70%;
+    padding: 20px;
   }
   .inputForm{
     width: 200px;
+  }
+  .cardsList{
+    height: 40vw;
   }
 }
